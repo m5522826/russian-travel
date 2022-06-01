@@ -3,16 +3,32 @@
   font-size: 18px;
   line-height: 22px;
   text-align: center;
-  color: #FFF;
-  max-width: 360px;
-  margin: 3% auto;
+  color: #fff;
+  max-width: 36%;
+  margin: 3% auto 0;
   z-index: 3;
 }
-  
+
 @media screen and (max-width: 600px) {
   .cover__subtitle {
     font-size: 14px;
     line-height: 16px;
-    max-width: 288px;
+    max-width: 90%;
+  }
+}
+
+@media screen and (min-width: 780px) and (max-width: 1050px) {
+  .cover__subtitle {
+    max-width: 50%;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 779px) {
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 60%;
   }
 }

@@ -5,15 +5,16 @@
   line-height: 18px;
   color: #fff;
   box-sizing: border-box;
-  padding: 10px 10px;
+  padding: 10px;
+  margin: 0;
 }
 
 .footer__link:hover {
-  color: #AAA;
+  color: #aaa;
 }
 
 @media screen and (max-width: 700px) {
- .footer__link {
+  .footer__link {
     font-size: 24px;
     line-height: 24px;
   }

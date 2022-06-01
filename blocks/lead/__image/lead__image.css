@@ -2,11 +2,17 @@
   width: calc(100% - 40px);
   display: block;
   margin: 0 auto;
-  max-width: 984px;
+  max-width: 928px;
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__image {
+    max-width: 1050px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .lead__image {
     width: 100%;
   }
-}  
+}
