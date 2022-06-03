@@ -8,15 +8,16 @@
   max-width: 44vw;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .place__paragraphs {
     font-size: 16px;
     max-width: 90vw;
   }
 }
 
-@media screen and (max-width: 550px) {
-  .places {
-    margin: 0 3%;
+@media screen and (max-width: 650px) {
+  .place__paragraphs {
+    margin: 0 5%;
+    max-width: 96%;
   }
 }

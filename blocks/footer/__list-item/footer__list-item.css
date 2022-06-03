@@ -1,4 +1,21 @@
 .footer__list-item {
-  padding: 3% 0;
+  padding-right: 5%;
   margin: 0;
+}
+
+.footer__list-item:last-child {
+  padding-right: 0;
+}
+
+@media screen and (max-width: 700px) {
+  .footer__list-item {
+    padding-bottom: 30px;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .footer__list-item {
+    padding-right: 7%;
+  }
 }

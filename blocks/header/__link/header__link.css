@@ -4,7 +4,7 @@
   font-size: 24px;
   line-height: 28px;
   text-decoration: none;
-  margin: 2%;
+  margin-right: 3%;
 }
 
 .header__link:last-child {
@@ -15,9 +15,21 @@
   text-decoration: underline;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
   .header__link {
     font-size: 18px;
     line-height: 20px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .header__link {
+    margin-right: 4.5%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header__link {
+    margin-right: 12%;
   }
 }

@@ -7,5 +7,5 @@
 }
 
 .website__link:hover {
-  color: #aaa;
+  opacity: 0.8;
 }

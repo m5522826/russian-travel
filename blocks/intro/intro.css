@@ -1,17 +1,27 @@
 .intro {
   margin: 9% 5%;
-  max-width: 60%;
+  max-width: 85%;
 }
 
 @media screen and (min-width: 1280px) {
   .intro {
-    margin-left: 12%;
+    margin-left: 11.5%;
     margin-top: 7%;
+    margin-bottom: 7%;
+    max-width: 55%;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   .intro {
-    max-width: 90%;
+    max-width: 98%;
+    margin: 11% 1%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .intro {
+    max-width: 95%;
+    margin: 19% 5%;
   }
 }

@@ -5,49 +5,39 @@
   background-size: cover;
   background-position: center;
   position: relative;
-  width: 1024px;
-  height: 640px;
+  width: 100%;
+  min-height: 640px;
   box-sizing: border-box;
 }
 
 @media screen and (min-width: 1280px) {
   .cover {
-    width: 1184px;
-    height: 740px;
-  }
-}
-
-@media screen and (max-width: 1050px) {
-  .cover {
-    width: 738px;
-    height: 460px;
+    max-width: 92%;
+    min-height: 740px;
   }
 }
 
 @media screen and (min-width: 780px) and (max-width: 1023px) {
   .cover {
-    width: 730px;
-    height: 456px;
+    min-height: 500px;
   }
 }
 
 @media screen and (min-width: 601px) and (max-width: 779px) {
   .cover {
-    width: 441px;
-    height: 276px;
+    min-height: 480px;
   }
 }
 
 @media screen and (min-width: 422px) and (max-width: 600px) {
   .cover {
-    width: 326px;
-    height: 240px;
+    min-height: 240px;
   }
 }
 
 @media screen and (max-width: 421px) {
   .cover {
-    width: 320px;
-    height: 200px;
+    min-height: 200px;
+    margin-top: 4%;
   }
 }

@@ -3,12 +3,27 @@
   font-size: 16px;
   line-height: 163%;
   color: #fff;
-  max-width: 55vw;
-  margin: 6% 0;
+  margin: 6% 0 4%;
+  max-width: 80%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 1280px) {
   .intro__text {
-    max-width: 90%;
+    margin: 6% 1% 0 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .intro__text {
+    max-width: 99%;
+    margin: 5% 3% 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .intro__text {
+    max-width: 97%;
+    margin-top: 16%;
+    margin-left: 0;
   }
 }
