@@ -25,3 +25,10 @@
     margin: 3% auto;
   }
 }
+
+@media screen and (min-width: 340px) and (max-width: 650px) {
+  .place__image {
+    display: flex;
+    margin: 3% auto;
+  }
+}

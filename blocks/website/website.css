@@ -12,3 +12,10 @@
     margin: 8% 5%;
   }
 }
+
+@media screen and (min-width: 340px) and (max-width: 650px) {
+  .website {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
