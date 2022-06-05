@@ -9,14 +9,14 @@
 
 @media screen and (min-width: 1280px) {
   .intro__text {
-    margin: 6% 1% 0 0;
+    margin: 4% 1% 0 0;
   }
 }
 
 @media screen and (max-width: 900px) {
   .intro__text {
     max-width: 99%;
-    margin: 5% 3% 0;
+    margin: 5% 2% 0;
   }
 }
 

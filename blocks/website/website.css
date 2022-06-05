@@ -19,3 +19,9 @@
     text-align: center;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .website {
+    padding-top: 18%;
+  }
+}

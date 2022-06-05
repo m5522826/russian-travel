@@ -4,10 +4,10 @@
   margin: 7% 0;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1150px) {
   .place__image {
-    width: 470px;
-    height: 470px;
+    width: 463px;
+    height: 463px;
   }
 }
 

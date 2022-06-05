@@ -1,7 +1,7 @@
 .footer__links {
   list-style-type: none;
   display: flex;
-  margin: 6% 11%;
+  margin: 6% 9%;
   padding: 0;
 }
 
@@ -13,12 +13,12 @@
 
 @media screen and (min-width: 1280px) {
   .footer__links {
-    margin: 6% 7%;
+    margin: 5.5% 7%;
   }
 }
 
 @media screen and (max-width: 900px) {
   .footer__links {
-    margin-left: 7%;
+    margin-left: 5%;
   }
 }
