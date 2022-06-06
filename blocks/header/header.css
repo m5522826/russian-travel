@@ -3,19 +3,20 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 5px;
-  padding: 3% 5%;
+  padding: 2% 5% 4%;
 }
 
 @media screen and (min-width: 1280px) {
   .header {
-    padding: 2%;
+    padding: 2% 4%;
   }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 700px) and (max-width: 950px) {
   .header {
     padding-left: 3%;
     padding-right: 0;
+    padding-top: 3.5%;
   }
 }
 

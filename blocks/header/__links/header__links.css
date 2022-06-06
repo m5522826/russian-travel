@@ -2,19 +2,20 @@
   display: flex;
   justify-content: end;
   align-items: center;
-  margin: 0 6% 0;
+  margin: 0;
   padding-top: 2%;
 }
 
 @media screen and (min-width: 1150px) {
   .header__links {
     padding-top: 3%;
+    margin-right: 0;
   }
 }
 
 @media screen and (min-width: 700px) and (max-width: 950px) {
   .header__links {
-    padding: 4% 1% 0;
+    padding: 4% 6% 0;
   }
 }
 

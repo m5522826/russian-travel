@@ -8,6 +8,7 @@
 @media screen and (min-width: 1280px) {
   .place {
     margin: 2.5% 0;
+    gap: 15px;
   }
 }
 

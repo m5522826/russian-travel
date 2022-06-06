@@ -7,3 +7,9 @@
   margin: 3% 0;
   text-transform: uppercase;
 }
+
+@media screen and (min-width: 1150px) {
+  .website__url-heading {
+    margin: 2% 0;
+  }
+}
